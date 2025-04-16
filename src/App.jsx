@@ -98,7 +98,7 @@ export default function CulturalDayForm() {
         ...formData,
         selected_activities: formData.selected_activities.join(', ')
       };
-      //////Oumar
+      //////test
 
       const response = await fetch('https://backendjournee-v9qj.vercel.app/api/inscriptions', {
         method: 'POST',
