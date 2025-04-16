@@ -100,7 +100,7 @@ export default function CulturalDayForm() {
       };
       //////test
 
-      const response = await fetch('https://backendjournee-v9qj.vercel.app/api/inscriptions', {
+      const response = await fetch('https://backendjournee.vercel.app/api/inscriptions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
